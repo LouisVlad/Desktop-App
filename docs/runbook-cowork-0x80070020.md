@@ -89,4 +89,4 @@ Signification des valeurs `Start` : 2 = automatique, 3 = manuel, 4 = désactivé
 
 | Date | Version Claude | Observations | Résolution |
 |---|---|---|---|
-| 2026-09-24 | 2.7032.0.0 (architecture à confirmer, suffixe `_ar...` : arm64 possible) | Aucune erreur 0x80070020 dans le journal AppModel-Runtime. `cowork-svc` lancé par `services`, PID stable. Redémarrage et réinstallation sans effet. | `Start = 4` + redémarrage : Claude se lance. Cowork désactivé. |
+| 2026-09-24 | 2.7032.0.0 (architecture à confirmer, suffixe `_ar...` : arm64 possible) | Aucune erreur 0x80070020 dans le journal AppModel-Runtime. `cowork-svc` lancé par `services`, PID stable. Redémarrage et réinstallation sans effet. | `Start = 4` + redémarrage : Claude se lance. Cowork réactivé ensuite (section 5) : Claude Desktop et Cowork fonctionnent. |
